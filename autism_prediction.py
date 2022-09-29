@@ -9,7 +9,7 @@ import streamlit as st
 from streamlit_option_menu import option_menu 
 
 
-autism_model = pickle.load(open('C:/Users/MICRO/Desktop/AutismApp/saved_model/autism_model.sav','rb')) 
+autism_model = pickle.load(open('autism_model.sav','rb')) 
 
 with st.sidebar:
     
