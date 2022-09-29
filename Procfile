@@ -1,1 +1,1 @@
-web: sh setup.sh && streamlit run autism_prediction.py
+web: sh setup.sh && streamlit run .sreamlit/app.py
